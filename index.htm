@@ -1,0 +1,274 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>
+			首页
+		</title>
+		<link href="static/css.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="static/navigation.js">
+		</script>
+		<script type="text/javascript" src="static/navigation_a.js">
+		</script>
+		<script type="text/javascript" src="static/pop_up.js">
+		</script>
+		<script type="text/javascript" src="static/jquery.min.js">
+		</script>
+		<script text="text/javascript">
+			$(function() {
+				$("div#miniGallery img").each(function() {
+					$(this).css('opacity', '1.0');
+				}).hover(function() {
+					$(this).animate({
+						opacity: 0.5
+					});
+				},
+				function() {
+					$(this).animate({
+						opacity: 1.0
+					});
+				});
+			});
+		</script>
+		<script src="static/swfobject.js" type="text/javascript">
+		</script>
+		<style type="text/css" media="screen">
+			#swfContent {visibility:hidden}
+		</style>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div class="zjtw_index">
+								<div class="zjtw_top">
+					<div class="top_top">
+						<div class="login_s">
+							<div class="index_img">
+								<div class="login">
+									<form action="login_do" method="post">
+										<span style="padding-right:10px;">
+											xxx:xxxx
+										</span>
+										<input name="username" type="text" class="inp" value="请输入用户名" onfocus="if(value==defaultValue){value=&#39;&#39;;this.style.color=&#39;#000&#39;}"
+										onblur="if(!value){value=defaultValue;this.style.color=&#39;#999&#39;}"
+										style="color:#999999">
+										<input name="password" type="password" class="inp" value="请输入密码" onfocus="if(value==defaultValue){value=&#39;&#39;;this.style.color=&#39;#000&#39;}"
+										onblur="if(!value){value=defaultValue;this.style.color=&#39;#999&#39;}"
+										style="color:#999999">
+										<input type="hidden" name="site_id" value="1017">
+										<input type="hidden" name="re_url" value="hllj.hlltjituan.com/">
+										<input name="" type="image" src="static/logo.gif" style=" vertical-align:middle">
+										<a href="index.php/Register" target="_blank">
+											<img src="static/reg.gif" border="0" style=" vertical-align:middle">
+										</a>
+									</form>
+								</div>
+							</div>
+						</div>
+						<div class="logo_tw">
+							<img src="static/logo.jpg">
+						</div>
+					</div>
+					<div class="navigation">
+						<div class="nav_dh_b">
+							<ul class="topnav">
+								<li>
+									<a href="9468" class="nav_title_b">
+										公司介绍
+									</a>
+									<ul class="subnav">
+										<li>
+											<a href="9468">
+												公司简介
+											</a>
+										</li>
+									</ul>
+									<span>
+									</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+                <div class="clearbox">
+				</div>
+				<div class="flash1" id="imgBox_a">
+					<div class="focus_swf">
+						<object type="application/x-shockwave-flash" data="static/player.swf"
+						width="1000" height="424" id="swfContent" style="visibility: visible;">
+							<param name="menu" value="false">
+							<param name="wmode" value="opaque">
+							<param name="flashvars" value="">
+						</object>
+						<script type="text/javascript">
+							var xmlData = "<list><item><img>/img/6211385623043.jpg</img><url></url></item><item><img>/img/4421385623060.jpg</img><url></url></item><item><img>/img/6971385623078.jpg</img><url></url></item><item><img>/img/3461385623096.jpg</img><url></url></item><item><img>/img/211385623112.jpg</img><url></url></item><item><img>/img/5851385623126.jpg</img><url></url></item><item><img>/img/1411385623143.jpg</img><url></url></item></list>";
+							var flashvars = {
+								xmlData: xmlData
+							};
+							var params = {
+								menu: false,
+								wmode: "opaque"
+							};
+							var attributes = {};
+							swfobject.embedSWF(".swf", "swfContent", "1000", "424", "9", "expressInstall.swf", flashvars, params, attributes);
+						</script>
+						<div class="toolbar_a">
+							<a href="Index/cpjs/id/1007">
+								迈腾
+							</a>
+						</div>
+						<div style="display:none">
+							{}
+						</div>
+					</div>
+				</div>
+								<div class="clearbox">
+				</div>
+				<div class="zjtw_index">
+					<div class="index_list">
+						<div class="right">
+							<dl>
+								<dt>
+									快速链接
+								</dt>
+								<dd>
+									<ul>
+										<ul>
+											<li>
+												<a href="Index/zxdc">
+													在线订车服务
+												</a>
+											</li>
+										</ul>
+									</ul>
+								</dd>
+							</dl>
+						</div>
+						<div class="left">
+							<p class="sy_bt">
+								<strong>
+									业务介绍
+								</strong>
+							</p>
+							<li id="miniGallery">
+								<div class="showtitle">
+									<a href="9548" target="_blank">
+										<acronym>
+											销售业务
+										</acronym>
+									</a>
+								</div>
+								<div class="showpic" id="miniGallery">
+									<a href="9548" target="_blank">
+										<img src="static/8621384418357.jpg" style="opacity: 1;">
+									</a>
+								</div>
+								<div class="showtxt">
+									<span>
+										<a style="display:inline" href="9548"
+										target="_blank">
+											销售业务...
+										</a>
+									</span>
+									<br>
+									<a class="a" href="9548" target="_blank">
+										了解详情
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="showtitle">
+									<a href="9549" target="_blank">
+										<acronym>
+											维修业务
+										</acronym>
+									</a>
+								</div>
+								<div class="showpic" id="miniGallery">
+									<a href="9549" target="_blank">
+										<img src="static/8631381742470.jpg" style="opacity: 1;">
+									</a>
+								</div>
+								<div class="showtxt">
+									<span>
+										<a style="display:inline" href="9549"
+										target="_blank">
+											一汽大众自1991年2月6日成立以来，一直受到全国各界关注...
+										</a>
+									</span>
+									<br>
+									<a class="a" href="9549" target="_blank">
+										了解详情
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="showtitle">
+									<a href="9550" target="_blank">
+										<acronym>
+											俱乐部
+										</acronym>
+									</a>
+								</div>
+								<div class="showpic" id="miniGallery">
+									<a href="9550" target="_blank">
+										<img src="static/4691381742506.jpg" style="opacity: 1;">
+									</a>
+								</div>
+								<div class="showtxt">
+									<span>
+										<a style="display:inline" href="9550"
+										target="_blank">
+											经过几年的摸索，现已建...
+										</a>
+									</span>
+									<br>
+									<a class="a" href="9550" target="_blank">
+										了解详情
+									</a>
+								</div>
+							</li>
+						</div>
+						<div class="xgxw">
+							<p class="sy_bt">
+								<strong>
+									相关新闻
+								</strong>
+								<span>
+									<a href="1569">
+										更多 &gt;&gt;
+									</a>
+								</span>
+							</p>
+							<ul>
+								<li>
+									<a href="9767" title="夏季汽车保养的小常识"
+									target="_blank">
+										夏季汽车保养的小常识
+									</a>
+									<span>
+										2013-10-24
+									</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+								﻿
+				<div class="zjtw_index">
+					<div class="jw_bottom" style="text-align:center;">
+						<strong>
+							xxxx
+						</strong>
+						<span>
+							<a href="">
+								xxx邮箱
+							</a>
+							
+						</span>
+					</div>
+				</div>
+							</div>
+		</div>
+	</body>
+
+</html>
